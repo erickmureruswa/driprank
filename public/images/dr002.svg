@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 580">
+  <rect width="480" height="580" fill="#080808"/>
+
+  <!-- T-Shirt body -->
+  <path d="M185,52 C205,28 275,28 295,52 L390,74 L450,84 L442,162 L376,154 L376,542 L104,542 L104,154 L38,162 L30,84 L90,74 Z" fill="#111111"/>
+  <path d="M185,52 C205,28 275,28 295,52 L390,74 L450,84 L442,162 L376,154 L376,542 L104,542 L104,154 L38,162 L30,84 L90,74 Z" fill="none" stroke="#1E1E1E" stroke-width="1.5"/>
+  <path d="M200,58 C218,40 262,40 280,58" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+
+  <!-- Runner silhouette -->
+  <!-- Head -->
+  <circle cx="272" cy="187" r="20" fill="#00D1FF"/>
+  <!-- Torso -->
+  <line x1="272" y1="207" x2="255" y2="258" stroke="#00D1FF" stroke-width="9" stroke-linecap="round"/>
+  <!-- Left arm (driving forward) -->
+  <line x1="268" y1="221" x2="234" y2="244" stroke="#00D1FF" stroke-width="7" stroke-linecap="round"/>
+  <!-- Right arm (swept back) -->
+  <line x1="263" y1="227" x2="290" y2="252" stroke="#00D1FF" stroke-width="7" stroke-linecap="round"/>
+  <!-- Left leg (forward stride) -->
+  <line x1="255" y1="258" x2="229" y2="300" stroke="#00D1FF" stroke-width="8" stroke-linecap="round"/>
+  <line x1="229" y1="300" x2="210" y2="330" stroke="#00D1FF" stroke-width="7" stroke-linecap="round"/>
+  <!-- Right leg (push-off) -->
+  <line x1="255" y1="258" x2="275" y2="293" stroke="#00D1FF" stroke-width="8" stroke-linecap="round"/>
+  <line x1="275" y1="293" x2="294" y2="278" stroke="#00D1FF" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Speed lines -->
+  <line x1="148" y1="210" x2="226" y2="210" stroke="#00D1FF" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="148" y1="224" x2="212" y2="224" stroke="#00D1FF" stroke-width="2"   stroke-linecap="round" opacity="0.5"/>
+  <line x1="155" y1="237" x2="218" y2="237" stroke="#00D1FF" stroke-width="2"   stroke-linecap="round" opacity="0.4"/>
+  <line x1="148" y1="250" x2="208" y2="250" stroke="#00D1FF" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="152" y1="263" x2="218" y2="263" stroke="#00D1FF" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- VOID RUNNER text -->
+  <text x="240" y="378" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="32" fill="#00D1FF" letter-spacing="3">VOID</text>
+  <text x="240" y="402" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="14" fill="#00D1FF" letter-spacing="7" opacity="0.8">RUNNER</text>
+  <text x="240" y="422" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#00D1FF" letter-spacing="2" opacity="0.4">@darkmode_z</text>
+
+  <!-- Rank badge -->
+  <rect x="206" y="500" width="68" height="20" fill="#00D1FF"/>
+  <text x="240" y="514" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="10" fill="#080808" letter-spacing="3">RANK #2</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 580">
+  <rect width="480" height="580" fill="#0D0D0D"/>
+
+  <!-- T-Shirt body (light grey) -->
+  <path d="M185,52 C205,28 275,28 295,52 L390,74 L450,84 L442,162 L376,154 L376,542 L104,542 L104,154 L38,162 L30,84 L90,74 Z" fill="#DEDEDE"/>
+  <path d="M185,52 C205,28 275,28 295,52 L390,74 L450,84 L442,162 L376,154 L376,542 L104,542 L104,154 L38,162 L30,84 L90,74 Z" fill="none" stroke="#C8C8C8" stroke-width="1"/>
+  <path d="M200,58 C218,40 262,40 280,58" fill="none" stroke="#BEBEBE" stroke-width="2.5"/>
+
+  <!-- Ghost body -->
+  <path d="M200,204 C200,162 215,145 240,145 C265,145 280,162 280,204 L280,302 L268,287 L255,302 L240,287 L225,302 L212,287 L200,302 Z" fill="#FF006E"/>
+  <!-- Chrome highlight on ghost -->
+  <path d="M208,182 C214,163 229,153 242,151 C227,162 217,178 214,198 Z" fill="white" opacity="0.35"/>
+  <path d="M258,160 C268,169 275,183 275,197 C269,183 262,170 252,162 Z" fill="white" opacity="0.18"/>
+
+  <!-- Ghost eyes -->
+  <ellipse cx="226" cy="196" rx="12" ry="13" fill="white"/>
+  <ellipse cx="254" cy="196" rx="12" ry="13" fill="white"/>
+  <circle cx="230" cy="200" r="6" fill="#880033"/>
+  <circle cx="258" cy="200" r="6" fill="#880033"/>
+  <circle cx="232" cy="202" r="3" fill="#220011"/>
+  <circle cx="260" cy="202" r="3" fill="#220011"/>
+
+  <!-- Ghost mouth -->
+  <path d="M228,222 Q240,233 252,222" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- CHROME GHOST text -->
+  <text x="240" y="348" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="20" fill="#FF006E" letter-spacing="3">CHROME</text>
+  <text x="240" y="372" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="20" fill="#FF006E" letter-spacing="3">GHOST</text>
+  <text x="240" y="393" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#FF006E" letter-spacing="2" opacity="0.6">@spectral99</text>
+
+  <!-- Rank badge -->
+  <rect x="206" y="500" width="68" height="20" fill="#FF006E"/>
+  <text x="240" y="514" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="10" fill="white" letter-spacing="3">RANK #3</text>
+</svg>

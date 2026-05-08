@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 580">
+  <rect width="480" height="580" fill="#09090F"/>
+
+  <!-- T-Shirt body (dark navy) -->
+  <path d="M185,52 C205,28 275,28 295,52 L390,74 L450,84 L442,162 L376,154 L376,542 L104,542 L104,154 L38,162 L30,84 L90,74 Z" fill="#12121A"/>
+  <path d="M185,52 C205,28 275,28 295,52 L390,74 L450,84 L442,162 L376,154 L376,542 L104,542 L104,154 L38,162 L30,84 L90,74 Z" fill="none" stroke="#1E1E2C" stroke-width="1.5"/>
+  <path d="M200,58 C218,40 262,40 280,58" fill="none" stroke="#1C1C2A" stroke-width="2.5"/>
+
+  <!-- City skyline silhouette -->
+  <g fill="#00D1FF">
+    <rect x="118" y="278" width="16" height="100"/>
+    <rect x="138" y="252" width="22" height="126"/>
+    <rect x="163" y="234" width="16" height="144"/>
+    <rect x="183" y="210" width="26" height="168"/>
+    <!-- antenna on building 4 -->
+    <rect x="192" y="200" width="4" height="12"/>
+    <rect x="216" y="228" width="14" height="150"/>
+    <!-- Tallest building -->
+    <rect x="233" y="185" width="22" height="193"/>
+    <!-- spire -->
+    <rect x="239" y="175" width="6" height="12"/>
+    <rect x="258" y="220" width="18" height="158"/>
+    <rect x="280" y="238" width="24" height="140"/>
+    <rect x="307" y="255" width="18" height="123"/>
+    <rect x="329" y="268" width="16" height="110"/>
+    <rect x="349" y="278" width="13" height="100"/>
+  </g>
+
+  <!-- Ground line -->
+  <rect x="114" y="378" width="252" height="2" fill="#00D1FF"/>
+
+  <!-- Window lights (scattered dots) -->
+  <g fill="#00D1FF" opacity="0.4">
+    <rect x="188" y="222" width="4" height="3"/>
+    <rect x="197" y="222" width="4" height="3"/>
+    <rect x="188" y="234" width="4" height="3"/>
+    <rect x="197" y="234" width="4" height="3"/>
+    <rect x="188" y="246" width="4" height="3"/>
+    <rect x="237" y="198" width="4" height="3"/>
+    <rect x="246" y="198" width="4" height="3"/>
+    <rect x="237" y="210" width="4" height="3"/>
+    <rect x="246" y="210" width="4" height="3"/>
+    <rect x="237" y="222" width="4" height="3"/>
+    <rect x="246" y="222" width="4" height="3"/>
+    <rect x="237" y="234" width="4" height="3"/>
+    <rect x="246" y="234" width="4" height="3"/>
+    <rect x="262" y="232" width="4" height="3"/>
+    <rect x="271" y="232" width="4" height="3"/>
+    <rect x="262" y="244" width="4" height="3"/>
+    <rect x="312" y="268" width="4" height="3"/>
+    <rect x="312" y="280" width="4" height="3"/>
+    <rect x="321" y="268" width="4" height="3"/>
+  </g>
+
+  <!-- NULL CITY text -->
+  <text x="240" y="416" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="27" fill="#00D1FF" letter-spacing="4">NULL CITY</text>
+  <text x="240" y="438" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#00D1FF" letter-spacing="2" opacity="0.4">@n0city</text>
+
+  <!-- Rank badge -->
+  <rect x="206" y="500" width="68" height="20" fill="#00D1FF"/>
+  <text x="240" y="514" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="10" fill="#09090F" letter-spacing="3">RANK #5</text>
+</svg>

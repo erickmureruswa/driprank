@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 580">
+  <rect width="480" height="580" fill="#080808"/>
+
+  <!-- T-Shirt body -->
+  <path d="M185,52 C205,28 275,28 295,52 L390,74 L450,84 L442,162 L376,154 L376,542 L104,542 L104,154 L38,162 L30,84 L90,74 Z" fill="#0F0F0F"/>
+  <path d="M185,52 C205,28 275,28 295,52 L390,74 L450,84 L442,162 L376,154 L376,542 L104,542 L104,154 L38,162 L30,84 L90,74 Z" fill="none" stroke="#1C1C1C" stroke-width="1.5"/>
+  <path d="M200,58 C218,40 262,40 280,58" fill="none" stroke="#1A1A1A" stroke-width="2.5"/>
+
+  <!-- Acid Bloom graphic centred at (240, 248) -->
+  <g transform="translate(240,248)">
+    <!-- Outer ring glow -->
+    <circle r="82" fill="none" stroke="#B6FF00" stroke-width="0.5" opacity="0.22"/>
+    <circle r="72" fill="none" stroke="#B6FF00" stroke-width="0.8" opacity="0.35"/>
+
+    <!-- 8 outer petals (outline only, rotated ellipses) -->
+    <ellipse rx="14" ry="62" transform="rotate(0)"    fill="none" stroke="#B6FF00" stroke-width="1.5" opacity="0.85"/>
+    <ellipse rx="14" ry="62" transform="rotate(45)"   fill="none" stroke="#B6FF00" stroke-width="1.5" opacity="0.85"/>
+    <ellipse rx="14" ry="62" transform="rotate(90)"   fill="none" stroke="#B6FF00" stroke-width="1.5" opacity="0.85"/>
+    <ellipse rx="14" ry="62" transform="rotate(135)"  fill="none" stroke="#B6FF00" stroke-width="1.5" opacity="0.85"/>
+    <ellipse rx="14" ry="62" transform="rotate(22.5)" fill="none" stroke="#B6FF00" stroke-width="1"   opacity="0.45"/>
+    <ellipse rx="14" ry="62" transform="rotate(67.5)" fill="none" stroke="#B6FF00" stroke-width="1"   opacity="0.45"/>
+    <ellipse rx="14" ry="62" transform="rotate(112.5)"fill="none" stroke="#B6FF00" stroke-width="1"   opacity="0.45"/>
+    <ellipse rx="14" ry="62" transform="rotate(157.5)"fill="none" stroke="#B6FF00" stroke-width="1"   opacity="0.45"/>
+
+    <!-- Soft petal fill -->
+    <ellipse rx="8" ry="40" transform="rotate(0)"   fill="#B6FF00" opacity="0.1"/>
+    <ellipse rx="8" ry="40" transform="rotate(45)"  fill="#B6FF00" opacity="0.1"/>
+    <ellipse rx="8" ry="40" transform="rotate(90)"  fill="#B6FF00" opacity="0.1"/>
+    <ellipse rx="8" ry="40" transform="rotate(135)" fill="#B6FF00" opacity="0.1"/>
+
+    <!-- Inner mid ring -->
+    <circle r="22" fill="none" stroke="#B6FF00" stroke-width="1.2" opacity="0.6"/>
+
+    <!-- Centre -->
+    <circle r="18" fill="#B6FF00"/>
+    <circle r="10" fill="#0F0F0F"/>
+    <circle r="5"  fill="#B6FF00"/>
+  </g>
+
+  <!-- ACID BLOOM text -->
+  <text x="240" y="352" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="24" fill="#B6FF00" letter-spacing="3">ACID BLOOM</text>
+  <text x="240" y="374" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#B6FF00" letter-spacing="2" opacity="0.45">@rave.flux</text>
+
+  <!-- Rank badge -->
+  <rect x="206" y="500" width="68" height="20" fill="#B6FF00"/>
+  <text x="240" y="514" text-anchor="middle" font-family="'Courier New',monospace" font-weight="900" font-size="10" fill="#080808" letter-spacing="3">RANK #4</text>
+</svg>
