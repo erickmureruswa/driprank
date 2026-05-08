@@ -1,0 +1,43 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "Arena" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: Arena
+      - generic [ref=e13]: Studio
+      - generic [ref=e14]: DR8715
+    - generic [ref=e15]:
+      - button "Public" [ref=e16]:
+        - img [ref=e17]
+        - generic [ref=e20]: Public
+      - button "Reset all layers" [ref=e21]:
+        - img [ref=e22]
+      - button "Drop" [ref=e25]:
+        - img [ref=e26]
+        - generic [ref=e28]: Drop
+  - generic [ref=e29]:
+    - generic:
+      - paragraph: Add layers with the tools below
+    - generic [ref=e35]:
+      - paragraph
+  - contentinfo [ref=e36]:
+    - generic [ref=e37]:
+      - button "Fabric" [ref=e38]:
+        - img [ref=e40]
+        - generic [ref=e46]: Fabric
+      - button "Upload" [ref=e47]:
+        - img [ref=e49]
+        - generic [ref=e53]: Upload
+      - button "Add" [ref=e54]:
+        - img [ref=e56]
+        - generic [ref=e58]: Add
+      - button "Add" [ref=e59]:
+        - img [ref=e61]
+        - generic [ref=e64]: Add
+      - button "Manage" [ref=e65]:
+        - img [ref=e67]
+        - generic [ref=e71]: Manage
+      - button "Edit" [ref=e72]:
+        - img [ref=e74]
+        - generic [ref=e75]: Edit

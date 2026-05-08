@@ -1,0 +1,400 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DRIPRANK" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e10]: DRIPRANK
+      - generic [ref=e11]:
+        - link "Arena" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - link "Studio" [ref=e13] [cursor=pointer]:
+          - /url: /studio
+        - link "Ranks" [ref=e14] [cursor=pointer]:
+          - /url: /leaderboard
+          - text: Ranks
+        - link "Drops" [ref=e16] [cursor=pointer]:
+          - /url: /drops
+      - link "Design Now" [ref=e18] [cursor=pointer]:
+        - /url: /studio
+        - img [ref=e19]
+        - text: Design Now
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 👑 STATIC NOISE — 847 ORDERS
+        - generic [ref=e25]: ⚡ VOID RUNNER — 712 ORDERS
+        - generic [ref=e26]: 🔥 CHROME GHOST — 634 ORDERS
+        - generic [ref=e27]: ★
+        - text: WEEKLY ARENA · CASH ON DELIVERY
+      - generic [ref=e28]:
+        - generic [ref=e29]: 👑 STATIC NOISE — 847 ORDERS
+        - generic [ref=e30]: ⚡ VOID RUNNER — 712 ORDERS
+        - generic [ref=e31]: 🔥 CHROME GHOST — 634 ORDERS
+        - generic [ref=e32]: ★
+        - text: WEEKLY ARENA · CASH ON DELIVERY
+      - generic [ref=e33]:
+        - generic [ref=e34]: 👑 STATIC NOISE — 847 ORDERS
+        - generic [ref=e35]: ⚡ VOID RUNNER — 712 ORDERS
+        - generic [ref=e36]: 🔥 CHROME GHOST — 634 ORDERS
+        - generic [ref=e37]: ★
+        - text: WEEKLY ARENA · CASH ON DELIVERY
+      - generic [ref=e38]:
+        - generic [ref=e39]: 👑 STATIC NOISE — 847 ORDERS
+        - generic [ref=e40]: ⚡ VOID RUNNER — 712 ORDERS
+        - generic [ref=e41]: 🔥 CHROME GHOST — 634 ORDERS
+        - generic [ref=e42]: ★
+        - text: WEEKLY ARENA · CASH ON DELIVERY
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - img [ref=e48]
+          - heading "Rankings" [level=1] [ref=e54]
+        - paragraph [ref=e55]: Real order counts. No votes. No fluff.
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - button "This Week" [ref=e58]
+          - button "All Time" [ref=e59]
+        - generic [ref=e60]:
+          - img [ref=e61]
+          - generic [ref=e64]: Resets in
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]: "04"
+              - generic [ref=e68]: D
+            - generic [ref=e69]: ":"
+            - generic [ref=e70]:
+              - generic [ref=e71]: "06"
+              - generic [ref=e72]: H
+            - generic [ref=e73]: ":"
+            - generic [ref=e74]:
+              - generic [ref=e75]: "06"
+              - generic [ref=e76]: M
+            - generic [ref=e77]: ":"
+            - generic [ref=e78]:
+              - generic [ref=e79]: "50"
+              - generic [ref=e80]: S
+      - generic:
+        - generic:
+          - generic: "#"
+          - generic: Trend
+          - generic: Design
+          - generic: Orders
+          - generic: Weekly
+          - generic: Buy
+        - generic:
+          - generic:
+            - generic: "1"
+            - generic:
+              - img
+              - generic: "1"
+            - generic:
+              - generic:
+                - img "STATIC NOISE"
+                - generic:
+                  - generic: "#1"
+                - generic: 🔥
+            - link "STATIC NOISE 🔥 @glitchkid":
+              - /url: /design/DR001
+              - generic:
+                - paragraph: STATIC NOISE
+                - generic: 🔥
+              - paragraph: "@glitchkid"
+            - generic:
+              - paragraph: "847"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+312"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "2"
+            - generic:
+              - img
+              - generic: "1"
+            - generic:
+              - generic:
+                - img "VOID RUNNER"
+                - generic:
+                  - generic: "#2"
+                - generic: ⚡
+            - link "VOID RUNNER ⚡ @darkmode_z":
+              - /url: /design/DR002
+              - generic:
+                - paragraph: VOID RUNNER
+                - generic: ⚡
+              - paragraph: "@darkmode_z"
+            - generic:
+              - paragraph: "712"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+289"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "3"
+            - generic:
+              - img
+              - generic: "2"
+            - generic:
+              - generic:
+                - img "CHROME GHOST"
+                - generic:
+                  - generic: "#3"
+                - generic: 💀
+            - link "CHROME GHOST 💀 @spectral99":
+              - /url: /design/DR003
+              - generic:
+                - paragraph: CHROME GHOST
+                - generic: 💀
+              - paragraph: "@spectral99"
+            - generic:
+              - paragraph: "634"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+241"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "4"
+            - generic:
+              - img
+              - generic: "1"
+            - generic:
+              - generic:
+                - img "ACID BLOOM"
+                - generic:
+                  - generic: "#4"
+                - generic: 🌿
+            - link "ACID BLOOM 🌿 @rave.flux":
+              - /url: /design/DR004
+              - generic:
+                - paragraph: ACID BLOOM
+                - generic: 🌿
+              - paragraph: "@rave.flux"
+            - generic:
+              - paragraph: "589"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+198"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "5"
+            - generic:
+              - img
+              - generic: "1"
+            - generic:
+              - generic:
+                - img "NULL CITY"
+                - generic:
+                  - generic: "#5"
+                - generic: 🌆
+            - link "NULL CITY 🌆 @n0city":
+              - /url: /design/DR005
+              - generic:
+                - paragraph: NULL CITY
+                - generic: 🌆
+              - paragraph: "@n0city"
+            - generic:
+              - paragraph: "421"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+167"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "6"
+            - generic:
+              - img
+              - generic: "2"
+            - generic:
+              - generic:
+                - img "PLASMA WAVE"
+                - generic:
+                  - generic: "#6"
+                - generic: 🌊
+            - link "PLASMA WAVE 🌊 @wave99":
+              - /url: /design/DR006
+              - generic:
+                - paragraph: PLASMA WAVE
+                - generic: 🌊
+              - paragraph: "@wave99"
+            - generic:
+              - paragraph: "388"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+155"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "7"
+            - generic:
+              - img
+              - generic: "1"
+            - generic:
+              - generic:
+                - img "DARK MATTER"
+                - generic:
+                  - generic: "#7"
+                - generic: 🔮
+            - link "DARK MATTER 🔮 @mattter":
+              - /url: /design/DR007
+              - generic:
+                - paragraph: DARK MATTER
+                - generic: 🔮
+              - paragraph: "@mattter"
+            - generic:
+              - paragraph: "312"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+124"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "8"
+            - generic:
+              - img
+              - generic: "1"
+            - generic:
+              - generic:
+                - img "NEON TOKYO"
+                - generic:
+                  - generic: "#8"
+                - generic: 🗼
+            - link "NEON TOKYO 🗼 @tokyoghost":
+              - /url: /design/DR008
+              - generic:
+                - paragraph: NEON TOKYO
+                - generic: 🗼
+              - paragraph: "@tokyoghost"
+            - generic:
+              - paragraph: "287"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+108"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "9"
+            - generic:
+              - img
+              - generic: "2"
+            - generic:
+              - generic:
+                - img "GLITCH ARC"
+                - generic:
+                  - generic: "#9"
+                - generic: ⚡
+            - link "GLITCH ARC ⚡ @arc.exe":
+              - /url: /design/DR009
+              - generic:
+                - paragraph: GLITCH ARC
+                - generic: ⚡
+              - paragraph: "@arc.exe"
+            - generic:
+              - paragraph: "241"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+97"
+            - button "Buy":
+              - img
+              - generic: Buy
+          - generic:
+            - generic: "10"
+            - generic:
+              - img
+              - generic: "1"
+            - generic:
+              - generic:
+                - img "ELECTRIC ZEN"
+                - generic:
+                  - generic: "#10"
+                - generic: ☯️
+            - link "ELECTRIC ZEN ☯️ @zenmode":
+              - /url: /design/DR010
+              - generic:
+                - paragraph: ELECTRIC ZEN
+                - generic: ☯️
+              - paragraph: "@zenmode"
+            - generic:
+              - paragraph: "198"
+              - paragraph: orders
+            - generic:
+              - img
+              - generic: "+78"
+            - button "Buy":
+              - img
+              - generic: Buy
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: Think you can rank?
+          - paragraph [ref=e88]: "Submit your design and compete for the #1 spot."
+        - link "Design Now" [ref=e89] [cursor=pointer]:
+          - /url: /studio
+          - img [ref=e90]
+          - text: Design Now
+  - contentinfo [ref=e92]:
+    - generic [ref=e94]:
+      - generic [ref=e95]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e96]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e97]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e98]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e99]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e100]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e101]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e102]: DESIGN. COMPETE. DOMINATE. ★
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - img [ref=e108]
+            - generic [ref=e110]: DRIPRANK
+          - paragraph [ref=e111]: The social fashion arena where your designs compete for status. Design. Submit. Climb the ranks.
+          - generic [ref=e114]: Live drops active
+        - generic [ref=e115]:
+          - heading "Platform" [level=4] [ref=e116]
+          - generic [ref=e117]:
+            - link "Arena" [ref=e118] [cursor=pointer]:
+              - /url: /
+            - link "Design Studio" [ref=e119] [cursor=pointer]:
+              - /url: /studio
+            - link "Rankings" [ref=e120] [cursor=pointer]:
+              - /url: /leaderboard
+            - link "Drops" [ref=e121] [cursor=pointer]:
+              - /url: /drops
+        - generic [ref=e122]:
+          - heading "How It Works" [level=4] [ref=e123]
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e126]: "01"
+              - generic [ref=e127]: Design your drip in the 3D Studio
+            - generic [ref=e128]:
+              - generic [ref=e129]: "02"
+              - generic [ref=e130]: Submit public — enter the arena
+            - generic [ref=e131]:
+              - generic [ref=e132]: "03"
+              - generic [ref=e133]: Orders = rank. Rank = status.
+            - generic [ref=e134]:
+              - generic [ref=e135]: "04"
+              - generic [ref=e136]: Order via WhatsApp. COD only.
+      - generic [ref=e137]:
+        - paragraph [ref=e138]: © 2025 DRIPRANK. All rights reserved.
+        - paragraph [ref=e139]: Cash on Delivery · WhatsApp Orders · Street Fashion

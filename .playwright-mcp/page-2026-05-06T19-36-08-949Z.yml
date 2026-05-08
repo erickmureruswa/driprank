@@ -1,0 +1,38 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "Arena" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: Arena
+      - generic [ref=e13]:
+        - button "3D Studio" [ref=e14]
+        - button "Upload" [active] [ref=e15]:
+          - img [ref=e16]
+          - text: Upload
+  - generic [ref=e81]:
+    - generic [ref=e82] [cursor=pointer]:
+      - img [ref=e83]
+      - generic [ref=e86]:
+        - paragraph [ref=e87]: Drop image or tap to browse
+        - paragraph [ref=e88]: PNG · JPG · WEBP · max 10 MB
+    - generic [ref=e89]:
+      - generic [ref=e90]: Design Name *
+      - textbox "e.g. ACID FUTURE" [ref=e91]
+    - generic [ref=e92]:
+      - generic [ref=e93]: Accent Colour
+      - generic [ref=e94]:
+        - button "Lime" [ref=e95]
+        - button "Cyan" [ref=e96]
+        - button "Magenta" [ref=e97]
+    - generic [ref=e98]:
+      - generic [ref=e99]: Visibility
+      - generic [ref=e100]:
+        - button "Public" [ref=e101]:
+          - img [ref=e102]
+          - text: Public
+        - button "Private" [ref=e105]:
+          - img [ref=e106]
+          - text: Private
+      - paragraph [ref=e109]: Your design goes live in the leaderboard immediately.
+    - button "Publish Design" [disabled] [ref=e110]

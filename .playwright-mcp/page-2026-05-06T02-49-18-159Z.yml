@@ -1,0 +1,185 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "DRIPRANK" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e10]: DRIPRANK
+      - generic [ref=e11]:
+        - link "Arena" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - link "Studio" [ref=e13] [cursor=pointer]:
+          - /url: /studio
+        - link "Ranks" [ref=e14] [cursor=pointer]:
+          - /url: /leaderboard
+        - link "Drops" [ref=e15] [cursor=pointer]:
+          - /url: /drops
+          - text: Drops
+      - link "Design Now" [ref=e18] [cursor=pointer]:
+        - /url: /studio
+        - img [ref=e19]
+        - text: Design Now
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: 👑 STATIC NOISE — 847 ORDERS
+        - generic [ref=e25]: ⚡ VOID RUNNER — 712 ORDERS
+        - generic [ref=e26]: 🔥 CHROME GHOST — 634 ORDERS
+        - generic [ref=e27]: ★
+        - text: WEEKLY ARENA · CASH ON DELIVERY
+      - generic [ref=e28]:
+        - generic [ref=e29]: 👑 STATIC NOISE — 847 ORDERS
+        - generic [ref=e30]: ⚡ VOID RUNNER — 712 ORDERS
+        - generic [ref=e31]: 🔥 CHROME GHOST — 634 ORDERS
+        - generic [ref=e32]: ★
+        - text: WEEKLY ARENA · CASH ON DELIVERY
+      - generic [ref=e33]:
+        - generic [ref=e34]: 👑 STATIC NOISE — 847 ORDERS
+        - generic [ref=e35]: ⚡ VOID RUNNER — 712 ORDERS
+        - generic [ref=e36]: 🔥 CHROME GHOST — 634 ORDERS
+        - generic [ref=e37]: ★
+        - text: WEEKLY ARENA · CASH ON DELIVERY
+      - generic [ref=e38]:
+        - generic [ref=e39]: 👑 STATIC NOISE — 847 ORDERS
+        - generic [ref=e40]: ⚡ VOID RUNNER — 712 ORDERS
+        - generic [ref=e41]: 🔥 CHROME GHOST — 634 ORDERS
+        - generic [ref=e42]: ★
+        - text: WEEKLY ARENA · CASH ON DELIVERY
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - img [ref=e48]
+          - heading "Active Drops" [level=1] [ref=e50]
+        - paragraph [ref=e51]: Limited runs. Ends when stock hits zero.
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e56]: LIMITED
+            - generic [ref=e57]: DROP-001
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: 🔥
+              - heading "STATIC NOISE GENESIS" [level=2] [ref=e60]
+              - paragraph [ref=e61]: "@glitchkid"
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - generic [ref=e66]: 1d 23h
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - img [ref=e70]
+                - generic [ref=e74]: Stock
+              - generic [ref=e75]: 47 left
+            - generic [ref=e78]:
+              - paragraph [ref=e80]: COD — Market Rate
+              - button "Cop Now" [ref=e81]:
+                - img [ref=e82]
+                - text: Cop Now
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: ENDING SOON
+            - generic [ref=e88]: DROP-002
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - text: 💀
+              - heading "CHROME GHOST REISSUE" [level=2] [ref=e91]
+              - paragraph [ref=e92]: "@spectral99"
+            - generic [ref=e93]:
+              - img [ref=e94]
+              - generic [ref=e97]: 11:59:59
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - img [ref=e101]
+                - generic [ref=e105]: Stock
+              - generic [ref=e106]: 23 left
+            - generic [ref=e109]:
+              - paragraph [ref=e111]: COD — Market Rate
+              - button "Cop Now" [ref=e112]:
+                - img [ref=e113]
+                - text: Cop Now
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e118]: NEW DROP
+            - generic [ref=e119]: DROP-003
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - text: 🌊
+              - heading "PLASMA WAVE FIRST RUN" [level=2] [ref=e122]
+              - paragraph [ref=e123]: "@wave99"
+            - generic [ref=e124]:
+              - img [ref=e125]
+              - generic [ref=e128]: 4d 23h
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - img [ref=e132]
+                - generic [ref=e136]: Stock
+              - generic [ref=e137]: 88 left
+            - generic [ref=e140]:
+              - paragraph [ref=e142]: COD — Market Rate
+              - button "Cop Now" [ref=e143]:
+                - img [ref=e144]
+                - text: Cop Now
+      - generic [ref=e146]:
+        - paragraph [ref=e147]: How Drops Work
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - paragraph [ref=e150]: "01"
+            - paragraph [ref=e151]: Design wins the leaderboard
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: "02"
+            - paragraph [ref=e154]: Limited run announced (stock set)
+          - generic [ref=e155]:
+            - paragraph [ref=e156]: "03"
+            - paragraph [ref=e157]: Order via WhatsApp · COD only
+      - generic [ref=e158]:
+        - paragraph [ref=e159]: Want your design to drop?
+        - link "Create" [ref=e160] [cursor=pointer]:
+          - /url: /studio
+          - img [ref=e161]
+          - text: Create
+  - contentinfo [ref=e163]:
+    - generic [ref=e165]:
+      - generic [ref=e166]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e167]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e168]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e169]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e170]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e171]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e172]: DESIGN. COMPETE. DOMINATE. ★
+      - generic [ref=e173]: DESIGN. COMPETE. DOMINATE. ★
+    - generic [ref=e174]:
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - img [ref=e179]
+            - generic [ref=e181]: DRIPRANK
+          - paragraph [ref=e182]: The social fashion arena where your designs compete for status. Design. Submit. Climb the ranks.
+          - generic [ref=e185]: Live drops active
+        - generic [ref=e186]:
+          - heading "Platform" [level=4] [ref=e187]
+          - generic [ref=e188]:
+            - link "Arena" [ref=e189] [cursor=pointer]:
+              - /url: /
+            - link "Design Studio" [ref=e190] [cursor=pointer]:
+              - /url: /studio
+            - link "Rankings" [ref=e191] [cursor=pointer]:
+              - /url: /leaderboard
+            - link "Drops" [ref=e192] [cursor=pointer]:
+              - /url: /drops
+        - generic [ref=e193]:
+          - heading "How It Works" [level=4] [ref=e194]
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - generic [ref=e197]: "01"
+              - generic [ref=e198]: Design your drip in the 3D Studio
+            - generic [ref=e199]:
+              - generic [ref=e200]: "02"
+              - generic [ref=e201]: Submit public — enter the arena
+            - generic [ref=e202]:
+              - generic [ref=e203]: "03"
+              - generic [ref=e204]: Orders = rank. Rank = status.
+            - generic [ref=e205]:
+              - generic [ref=e206]: "04"
+              - generic [ref=e207]: Order via WhatsApp. COD only.
+      - generic [ref=e208]:
+        - paragraph [ref=e209]: © 2025 DRIPRANK. All rights reserved.
+        - paragraph [ref=e210]: Cash on Delivery · WhatsApp Orders · Street Fashion

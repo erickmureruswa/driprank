@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(netstat *)",
+      "Skill(update-config)",
+      "Bash(npm run *)",
+      "Bash(Start-Sleep -Seconds 5)",
+      "Bash(Get-Content \"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-HP-Desktop-driprank\\\\b3b55137-d0b0-48bb-bbf5-3328755bb156\\\\tasks\\\\bg60orzds.output\" -ErrorAction SilentlyContinue)",
+      "Bash(Select-Object -First 30)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_wait_for",
+      "mcp__playwright__browser_evaluate",
+      "Bash(Start-Sleep 5)",
+      "Bash(Get-Content \"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-HP-Desktop-driprank\\\\b3b55137-d0b0-48bb-bbf5-3328755bb156\\\\tasks\\\\bunxmxpki.output\" -ErrorAction SilentlyContinue)",
+      "mcp__supabase__execute_sql",
+      "Bash(claude mcp *)",
+      "mcp__supabase__apply_migration",
+      "Bash(npm install *)",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_snapshot",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c cd C:\\\\Users\\\\HP\\\\Desktop\\\\driprank && npm run dev\" -WindowStyle Hidden; Start-Sleep 8; Write-Output \"Started\")",
+      "Read(//tmp/**)",
+      "Bash(npx *)",
+      "PowerShell(npx @anthropic-ai/claude-code plugins add vercel/vercel-plugin 2>&1)",
+      "PowerShell(claude plugins *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "supabase"
+  ]
+}
