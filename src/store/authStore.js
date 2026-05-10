@@ -26,10 +26,15 @@ export const useAuthStore = create((set, get) => ({
   _loadProfile: async (user) => {
     const { data } = await supabase
       .from('profiles')
-      .select('username')
+      .select('username, role, avatar_url')
       .eq('id', user.id)
       .single()
     set({ user, profile: data })
+  },
+
+  isAdmin: () => {
+    const { profile } = useAuthStore.getState()
+    return profile?.role === 'admin'
   },
 
   signUp: async ({ email, password, username }) => {

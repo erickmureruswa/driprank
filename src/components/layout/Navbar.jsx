@@ -2,7 +2,7 @@ import { useRef, useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Menu, X, Zap, User, LogOut } from 'lucide-react'
+import { Menu, X, Zap, User, LogOut, LayoutDashboard } from 'lucide-react'
 import MobileNav from './MobileNav'
 import { WEEKLY_DESIGNS } from '../../constants/mockData'
 import { useAuthStore } from '../../store/authStore'
@@ -103,6 +103,15 @@ export default function Navbar() {
                 >
                   {profile?.username || user.email?.split('@')[0]}
                 </Link>
+                {profile?.role === 'admin' && (
+                  <Link
+                    to="/admin"
+                    className="tap-target p-2 text-[#B6FF00]/60 hover:text-[#B6FF00] transition-colors border border-[#B6FF00]/10 hover:border-[#B6FF00]/30"
+                    title="Admin Dashboard"
+                  >
+                    <LayoutDashboard size={13} strokeWidth={2} />
+                  </Link>
+                )}
                 <button
                   onClick={signOut}
                   className="tap-target p-2 text-[#555] hover:text-[#FF006E] transition-colors border border-white/10 hover:border-[#FF006E]/30"

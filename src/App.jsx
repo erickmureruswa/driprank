@@ -12,12 +12,26 @@ import Drops         from './pages/Drops'
 import ProductDetail from './pages/ProductDetail'
 import Profile       from './pages/Profile'
 import NotFound      from './pages/NotFound'
+import AdminDashboard from './pages/admin/AdminDashboard'
 import { useAuthStore } from './store/authStore'
 
 function Layout() {
   const { pathname }   = useLocation()
   const isStudio       = pathname === '/studio'
+  const isAdmin        = pathname.startsWith('/admin')
   const showAuthModal  = useAuthStore((s) => s.showAuthModal)
+
+  if (isAdmin) {
+    return (
+      <>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/admin" element={<AdminDashboard />} />
+        </Routes>
+        <Toast />
+      </>
+    )
+  }
 
   return (
     <div className="min-h-screen bg-[#0D0D0D] flex flex-col">
