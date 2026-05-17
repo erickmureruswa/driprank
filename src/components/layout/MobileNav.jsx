@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import gsap from 'gsap'
-import { Zap, Trophy, Palette, ShoppingBag, Home } from 'lucide-react'
+import { Zap, Trophy, Palette, ShoppingBag, Home, User, LogOut, LayoutDashboard } from 'lucide-react'
+import { useAuthStore } from '../../store/authStore'
 
 const ICONS = {
   '/': Home,
@@ -15,6 +16,21 @@ export default function MobileNav({ open, onClose, links }) {
   const overlayRef = useRef(null)
   const itemsRef = useRef([])
   const location = useLocation()
+
+  const user          = useAuthStore((s) => s.user)
+  const profile       = useAuthStore((s) => s.profile)
+  const signOut       = useAuthStore((s) => s.signOut)
+  const openAuthModal = useAuthStore((s) => s.openAuthModal)
+
+  const handleSignIn = () => {
+    onClose()
+    setTimeout(openAuthModal, 350)
+  }
+
+  const handleSignOut = () => {
+    onClose()
+    signOut()
+  }
 
   useEffect(() => {
     const drawer = drawerRef.current
@@ -98,8 +114,54 @@ export default function MobileNav({ open, onClose, links }) {
           })}
         </div>
 
-        {/* CTA */}
-        <div className="px-6 pb-8 space-y-3">
+        {/* CTA + Auth */}
+        <div className="px-6 pb-8 space-y-3 border-t border-white/8 pt-6">
+
+          {/* Auth block */}
+          {user ? (
+            <div className="space-y-2">
+              {/* Username */}
+              <div className="flex items-center gap-3 px-4 py-3 bg-white/4 border border-white/8">
+                <div className="w-8 h-8 bg-[#1A1A1A] border border-white/10 flex items-center justify-center flex-shrink-0">
+                  <User size={14} strokeWidth={2} className="text-[#888]" />
+                </div>
+                <span className="font-display font-black text-sm uppercase tracking-widest text-[#F5F5F5] truncate">
+                  {profile?.username || user.email?.split('@')[0]}
+                </span>
+              </div>
+
+              {/* Admin dashboard link (only for admins) */}
+              {profile?.role === 'admin' && (
+                <Link
+                  to="/admin"
+                  onClick={onClose}
+                  className="tap-target flex items-center gap-3 px-4 py-3 w-full border border-[#B6FF00]/20 text-[#B6FF00] hover:bg-[#B6FF00]/5 transition-colors"
+                >
+                  <LayoutDashboard size={16} strokeWidth={2} />
+                  <span className="font-display font-black text-xs uppercase tracking-widest">Admin Dashboard</span>
+                </Link>
+              )}
+
+              {/* Sign out */}
+              <button
+                onClick={handleSignOut}
+                className="tap-target flex items-center gap-3 px-4 py-3 w-full border border-white/10 text-[#888] hover:text-[#FF006E] hover:border-[#FF006E]/30 transition-colors"
+              >
+                <LogOut size={16} strokeWidth={2} />
+                <span className="font-display font-black text-xs uppercase tracking-widest">Sign Out</span>
+              </button>
+            </div>
+          ) : (
+            <button
+              onClick={handleSignIn}
+              className="tap-target flex items-center justify-center gap-2 w-full border border-white/20 text-[#F5F5F5] hover:border-[#B6FF00]/40 hover:text-[#B6FF00] transition-all py-3.5"
+            >
+              <User size={16} strokeWidth={2} />
+              <span className="font-display font-black text-sm uppercase tracking-widest">Sign In / Sign Up</span>
+            </button>
+          )}
+
+          {/* Design CTA */}
           <Link
             to="/studio"
             onClick={onClose}

@@ -156,3 +156,37 @@ h1, h2, h3, h4, h5, h6 {
 .animate-float-delay-2 { animation: float 6s ease-in-out infinite 4s; }
 .animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
 .animate-ticker { animation: ticker 20s linear infinite; }
+
+/* ── Mobile performance: reduce motion for heavy animations ── */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-float-delay,
+  .animate-float-delay-2,
+  .animate-pulse-glow,
+  .animate-ticker {
+    animation: none !important;
+  }
+}
+
+/* ── Safe area insets for notched phones ── */
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+.safe-top    { padding-top: env(safe-area-inset-top); }
+
+/* ── Prevent text overflow on small screens ── */
+.truncate-mobile {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Hardware-accelerated for 3D canvas ── */
+canvas {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* ── Ticker pause on hover/focus for a11y ── */
+.animate-ticker:hover,
+.animate-ticker:focus-within {
+  animation-play-state: paused;
+}

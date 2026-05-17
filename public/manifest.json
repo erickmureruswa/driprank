@@ -1,0 +1,35 @@
+{
+  "name": "DRIPRANK",
+  "short_name": "DRIPRANK",
+  "description": "Design. Compete. Dominate. The social fashion arena.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0D0D",
+  "theme_color": "#0D0D0D",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Studio",
+      "short_name": "Studio",
+      "description": "Start designing",
+      "url": "/studio",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Leaderboard",
+      "short_name": "Ranks",
+      "description": "View rankings",
+      "url": "/leaderboard",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ],
+  "categories": ["fashion", "design", "social"]
+}
