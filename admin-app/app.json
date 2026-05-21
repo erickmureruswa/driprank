@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "DripRank Admin",
+    "slug": "driprank-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "driprank-admin",
+    "splash": {
+      "backgroundColor": "#0D0D0D"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.driprank.admin"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D0D0D"
+      },
+      "package": "com.driprank.admin",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": []
+  }
+}

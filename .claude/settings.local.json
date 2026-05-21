@@ -28,7 +28,17 @@
       "PowerShell(claude plugins *)",
       "Bash(git init *)",
       "Bash(git remote *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\HP\\\\Desktop\\\\driprank\" -Recurse -Force)",
+      "Bash(Select-Object -Property FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(ConvertTo-Json -Depth 100)",
+      "Bash(Out-String)",
+      "Bash(dir /s /b \"C:\\\\Users\\\\HP\\\\Desktop\\\\driprank\\\\src\\\\pages\\\\admin\")",
+      "PowerShell(\\(Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.IPAddress -notmatch '^127\\\\.' -and $_.IPAddress -notmatch '^169\\\\.' } | Select-Object -First 1\\).IPAddress)",
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\HP\\\\Desktop\\\\driprank\\\\admin-app\\\\node_modules\\\\react-native\\\\package.json\" | ConvertFrom-Json\\).version)",
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\HP\\\\Desktop\\\\driprank\\\\admin-app\\\\node_modules\\\\react-native-screens\\\\package.json\" | ConvertFrom-Json\\).peerDependencies; Write-Host \"---\"; \\(Get-Content \"C:\\\\Users\\\\HP\\\\Desktop\\\\driprank\\\\admin-app\\\\node_modules\\\\react-native-safe-area-context\\\\package.json\" | ConvertFrom-Json\\).peerDependencies)",
+      "Bash(Get-Content *)"
     ]
   },
   "enableAllProjectMcpServers": true,
