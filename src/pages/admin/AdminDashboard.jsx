@@ -5,7 +5,8 @@ import {
   LayoutDashboard, Shirt, DollarSign, MessageCircle,
   ShoppingBag, BarChart2, Menu, X, LogOut, ChevronRight,
 } from 'lucide-react'
-import AdminGuard      from '../../components/admin/AdminGuard'
+import AdminGuard          from '../../components/admin/AdminGuard'
+import AdminErrorBoundary from '../../components/admin/AdminErrorBoundary'
 import { useAuthStore } from '../../store/authStore'
 import { useAdminStore } from '../../store/adminStore'
 import OverviewSection  from './sections/OverviewSection'
@@ -224,8 +225,10 @@ function AdminDashboardInner() {
 
 export default function AdminDashboard() {
   return (
-    <AdminGuard>
-      <AdminDashboardInner />
-    </AdminGuard>
+    <AdminErrorBoundary>
+      <AdminGuard>
+        <AdminDashboardInner />
+      </AdminGuard>
+    </AdminErrorBoundary>
   )
 }

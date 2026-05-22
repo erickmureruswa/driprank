@@ -23,13 +23,13 @@ function Layout() {
 
   if (isAdmin) {
     return (
-      <>
+      <div className="min-h-screen bg-[#0D0D0D]">
         <ScrollToTop />
         <Routes>
           <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
         <Toast />
-      </>
+      </div>
     )
   }
 
