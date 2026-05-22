@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { View, Text, StyleSheet, ActivityIndicator, Alert } from 'react-native'
+import { View, Text, StyleSheet, ActivityIndicator, Alert, Platform } from 'react-native'
 import { NavigationContainer, DarkTheme } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
@@ -121,6 +121,33 @@ function AuthGate() {
   return null // Stack shows Admin tabs
 }
 
+function injectPWA() {
+  const head = document.head
+  const set = (tag, attrs) => {
+    const sel = Object.entries(attrs).filter(([k]) => k !== 'content' && k !== 'href').map(([k, v]) => `[${k}="${v}"]`).join('')
+    if (!head.querySelector(`${tag}${sel}`)) {
+      const el = document.createElement(tag)
+      Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v))
+      head.appendChild(el)
+    }
+  }
+  set('link', { rel: 'manifest', href: '/manifest.json' })
+  set('meta', { name: 'theme-color', content: '#B6FF00' })
+  set('meta', { name: 'mobile-web-app-capable', content: 'yes' })
+  set('meta', { name: 'apple-mobile-web-app-capable', content: 'yes' })
+  set('meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' })
+  set('meta', { name: 'apple-mobile-web-app-title', content: 'DR Admin' })
+  set('link', { rel: 'apple-touch-icon', href: '/icon.svg' })
+  set('meta', { name: 'application-name', content: 'DripRank Admin' })
+  set('meta', { name: 'msapplication-TileColor', content: '#B6FF00' })
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').catch(() => {})
+    })
+  }
+}
+
 export default function App() {
   const init    = useAuthStore(s => s.init)
   const user    = useAuthStore(s => s.user)
@@ -128,6 +155,7 @@ export default function App() {
   const loading = useAuthStore(s => s.loading)
 
   useEffect(() => { init() }, [])
+  useEffect(() => { if (Platform.OS === 'web') injectPWA() }, [])
 
   const isAdmin = user && profile?.role === 'admin'
 
